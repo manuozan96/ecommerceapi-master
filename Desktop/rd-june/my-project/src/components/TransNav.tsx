@@ -3,9 +3,9 @@ import Image from "next/image";
 import Logo from "../../public/Logo.svg";
 import Boton from "../../public/Boton.svg";
 
-const Navbar = () => {
+const TransNav = () => {
   return (
-    <nav className="bg-gradient-to-b from-[#000000]/80 to-transparent bg-no-repeat sticky top-0 p-7 px-7 pt-6 z-50">
+    <nav className="bg-transparent bg-no-repeat sticky top-0 p-7 px-7 pt-6 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-semibold top-0 z-50">
           <Link href="/">
@@ -34,4 +34,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default TransNav;

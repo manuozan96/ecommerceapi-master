@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const ProyectsGallery = () => {
   return (
-    <div className="ml-7 y-7 gap-y-7 mt-14 mb-24">
+    <div className="bg-transparent ml-7 y-7 gap-y-7 mt-14 mb-24">
       <div className="my-7 relative">
         <Link href="/interna">
           <div className="relative z-60">

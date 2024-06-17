@@ -1,21 +1,16 @@
 import { ReactNode } from "react";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
-import Button from "./Button";
-import { Table } from "./Table";
 
-interface MainProps {
+interface NosotrosLayoutProps {
   children: ReactNode;
 }
 
-const Main = ({ children }: MainProps) => {
+const NosotrosLayout = ({ children }: NosotrosLayoutProps) => {
   return (
     <div className="relative min-h-screen flex justify-center items-center ">
-      <div className="bg-back w-[430px] h-[932px] z-50">
-        <div className="w-[430px] h-[932px]  overflow-y-auto no-scrollbar">
-          <Navbar />
+      <div className="bg-back w-[430px] h-[932px] relative z-50">
+        <div className="z-50 relative w-[430px] h-[932px]  overflow-y-auto no-scrollbar">
           <div className="bg-transparent relative z-10">{children}</div>
-          <Button />
           <Footer />
         </div>
       </div>
@@ -23,7 +18,7 @@ const Main = ({ children }: MainProps) => {
   );
 };
 
-export default Main;
+export default NosotrosLayout;
 
 // bg-gradient-to-b from-transparent to-transparent bg-[url('/NavBlack.png')]
 

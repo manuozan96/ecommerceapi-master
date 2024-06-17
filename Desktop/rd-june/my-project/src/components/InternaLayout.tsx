@@ -24,7 +24,7 @@ const InternaLayout = ({ children }: IntProps) => {
     <div className="relative min-h-screen flex justify-center items-center ">
       <div className="w-[430px] h-[932px] bg-[#EDEDED] from-transparent overflow-y-auto no-scrollbar">
         <div className="bg-[#EDEDED] relative z-10">{children}</div>
-        <Button/>
+        <Button />
         <Footer />
       </div>
     </div>

@@ -8,12 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial":
-          "radial-gradient(circle at left, var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "gradient-with-image":
-          "linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 5)), url('/Nav.png')",
+        "header-interna": "url('/HeaderInterna.png')",
+        back: "linear-gradient(135deg, #fbdada 0%, #f7e4e4 14.6%, #f5ecec 27.7%, #f2f5f5 39.8%, #f2f5f5 50.5%, #f3f7f7 59.6%, #f6fafa 68.2%, #fbfefe 76.5%, #fff 84.5%)",
+        nav: "linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0) 80%)"
       },
 
       spacing: {
