@@ -16,7 +16,7 @@ const ProyectsGallery = () => {
           </div>
         </Link>
         <div className="absolute top-0 right-0 w-full h-full flex items-center justify-start mt-40">
-          <p className="text-dm-sans px-4 uppercase">
+          <p className="text-dm-sans text-white px-4 uppercase">
             brigada
             <br />
             training lab

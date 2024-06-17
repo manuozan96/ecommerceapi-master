@@ -1,12 +1,9 @@
-// tailwind.config.js
-
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // Incluye esta línea si usas `src` como carpeta raíz de tus componentes
   ],
   theme: {
     extend: {
@@ -20,8 +17,8 @@ const config: Config = {
       },
 
       spacing: {
-        "932": "932px",
-        "28": "28",
+        932: "932px",
+        28: "28",
       },
       colors: {
         rojo: "#f94940",
@@ -41,7 +38,7 @@ const config: Config = {
     fontSize: {
       lg: "18px",
       inherit: "inherit",
-      "50": "50px",
+      50: "50px",
       "mobile-50": "50px",
       "h2-desktop": "76px",
       "h2-mobile": "32px",
@@ -52,10 +49,10 @@ const config: Config = {
       wider: "0.2em", // Adjusted for 20% letter spacing
     },
     fontWeight: {
-      "400": "400",
+      400: "400",
     },
     lineHeight: {
-      "65": "65px",
+      65: "65px",
     },
     textAlign: {
       left: "left",
@@ -76,5 +73,3 @@ const config: Config = {
     preflight: false,
   },
 };
-
-export default config;

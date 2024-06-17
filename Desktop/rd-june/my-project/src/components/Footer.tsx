@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mt-14">
+
       <footer className="bg-rojo text-white py-14 mt-14">
         <div className="w-[430px] h-[1119px] flex-col justify-center items-center inline-flex">
           <div className="self-stretch grow shrink basis-0 flex-col justify-center items-center inline-flex">
@@ -14,7 +14,7 @@ const Footer = () => {
                       Lorem ipsum dolor sit amet,{" "}
                     </span>
                     <span className="text-gray-200 text-lg font-semibold font-['DM Sans']">
-                      consectetur adipiscing elit
+                      <b>consectetur adipiscing elit</b>
                     </span>
                     <span className="text-gray-200 text-lg font-light font-['DM Sans']">
                       , sed do eiusmod tempor incididunt ut labore et dolore
@@ -139,7 +139,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </div>
   );
 };
 

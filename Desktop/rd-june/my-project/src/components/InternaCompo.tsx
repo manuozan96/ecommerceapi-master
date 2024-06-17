@@ -1,19 +1,18 @@
 // components/ProyectsGallery.tsx
 import React from "react";
-import Main from "./Main";
-import HeaderInterna from "./HeaderInterna";
 import { Table } from "./Table";
 import ProyectsInterna from "./ProyectsInterna";
-import Button from "./Button";
+import InternaLayout from "./InternaLayout";
+import HeaderInterna from "./HeaderInterna";
+import Navbar from "./Navbar";
 
 const InternaCompo = () => {
   return (
-    <Main>
+    <InternaLayout>
       <HeaderInterna />
       <Table />
       <ProyectsInterna />
-      
-    </Main>
+    </InternaLayout>
   );
 };
 

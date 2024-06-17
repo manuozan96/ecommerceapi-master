@@ -5,8 +5,8 @@ import Boton from "../../public/Boton.svg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-b from-black/80 via-stone/40 to-transparent sticky top-0 p-7 px-7 pt-6 z-50">
-      <div className="container mx-auto flex justify-between items-center z-50">
+    <nav className="bg-gradient-to-b from-[#000000]/90 to-transparent bg-no-repeat bg-[url('/NavBlack.png')] sticky top-0 p-7 px-7 pt-6 z-50">
+      <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-semibold top-0 z-50">
           <Link href="/">
             <Image
